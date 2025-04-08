@@ -5235,10 +5235,15 @@
   resolved "https://registry.yarnpkg.com/@tanstack/virtual-core/-/virtual-core-3.13.5.tgz#0128ac36b027e44a5b63e38bf6b01e50008b7aff"
   integrity sha512-gMLNylxhJdUlfRR1G3U9rtuwUh2IjdrrniJIDcekVJN3/3i+bluvdMi3+eodnxzJq5nKnxnigo9h0lIpaqV6HQ==
 
-"@tsc_tech/medusa-plugin-auth-passkey@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-auth-passkey/-/medusa-plugin-auth-passkey-0.0.7.tgz#ba958b69c2dce33284b40e4770d4abb3574671f7"
-  integrity sha512-UK78VWdTrLpfMKQLPzKsQUwK+5/vIwP+YuLFhc8UTympcU5pJuwfFo0RUbrGFgn/wohXYfDsc0UHxI3G2ER50A==
+"@tsc_tech/medusa-plugin-abandoned-cart@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-abandoned-cart/-/medusa-plugin-abandoned-cart-0.0.3.tgz#a2b17bb9c708c65176f444a6ae1fdf56cf613bae"
+  integrity sha512-Oapat8P8te7lHvZSwQwyosfw9u70mNmZ7VV197CCB4wlKl57HayOtot8aH2eishzVTLlfxMQlNR6rXWZnPmELA==
+
+"@tsc_tech/medusa-plugin-auth-passkey@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-auth-passkey/-/medusa-plugin-auth-passkey-0.0.8.tgz#b72d2451f0c834a7cf2a26566153dcbd5b07affa"
+  integrity sha512-zNQJNt+G1wU+YyN07hp/lFi2yitSAgHnKvIzh33DNmLQIsFno5ClFlNsMn/7z7pP2AhnNIue/67d99hCVk+UjQ==
 
 "@tsc_tech/medusa-plugin-brand@^0.0.5":
   version "0.0.5"
@@ -5252,6 +5257,11 @@
   dependencies:
     handlebars "^4.7.8"
 
+"@tsc_tech/medusa-plugin-product-filter@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-product-filter/-/medusa-plugin-product-filter-0.0.3.tgz#7485eb44cca2da881ed7bb4a34af7df26f47d051"
+  integrity sha512-MmzJW4wK9IB9YoMbzEMmhfzTK0kocjRH0HOvGZyHASKBme3Xw/erT4Z47VLGH63Zts/+NY9PNca27XYYE/V7nw==
+
 "@tsc_tech/medusa-plugin-product-seo@^0.0.5":
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-product-seo/-/medusa-plugin-product-seo-0.0.5.tgz#37b25a4c9cc4d8a40dd68f9b1d63ad58424a7933"
@@ -5262,20 +5272,25 @@
   resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-product-variant-images/-/medusa-plugin-product-variant-images-0.0.1.tgz#a200148fbd5ebaf04a6be085b29e88a019e8e159"
   integrity sha512-oQCzPg7AZ4B+bOXzyvUuwcnpxobHdEOFaibY6UWoXEKz24JrowewZkCm++kSqDa2eq5DSATHu3Tk2PvuEcga0w==
 
-"@tsc_tech/medusa-plugin-razorpay-payment@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-razorpay-payment/-/medusa-plugin-razorpay-payment-0.0.7.tgz#97560963c2552394b8047bfc412831d93f3b09b7"
-  integrity sha512-wAqrBkFyZVggr3gKOnxHBs/Bd/A6GdxJTR1E5iiJ2TPa7mwqiKdfgUk4H062LELPkd1TEtOyClFQypJqHrEmcg==
+"@tsc_tech/medusa-plugin-razorpay-payment@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-razorpay-payment/-/medusa-plugin-razorpay-payment-0.0.8.tgz#ca7a381ae5bed1912f81a91f0a4c4d869e9409a5"
+  integrity sha512-LoNIDZcvsBlJq0ai3KCFRbQcfU6noM45hiJ9fraw8KKlprRpPbA0z6dL41WMhKuEd46mOivBq38NVE+sAuRTTw==
+
+"@tsc_tech/medusa-plugin-restock@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-restock/-/medusa-plugin-restock-0.0.3.tgz#00b702873208753d4f2638db0f360ae08f033a0a"
+  integrity sha512-sTV5+frFLLZ8LmCvf9SH7vAWqFi9cXh+C5g0yEYT/z7oosMez72qwsNQnhGmcugqHovoS5qMbr9Q/JtpQO7Vvw==
 
 "@tsc_tech/medusa-plugin-smtp@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-smtp/-/medusa-plugin-smtp-0.0.3.tgz#bdd39ab07301750aa5b6f45e4bd66af2361ba686"
   integrity sha512-LVtQC2Pzgw63EJTOclYxdaWgZoA8xxe4QNDfhPSDV22nqu0c+jCKH+zcRhLY2B4dY1q8usFlL+7sxd77pE7Dwg==
 
-"@tsc_tech/medusa-plugin-wishlist@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-wishlist/-/medusa-plugin-wishlist-0.0.3.tgz#e8d7c5e6487fa8dd800325ef16f3af72e826a300"
-  integrity sha512-mLVxl6AuIwoH87E0jinsmHXOCJVuCSCt4XX4TdiSw09NXsH3rtCiQSsF5gH81QB/OmRcaZWGLemPe6WMtbr9zg==
+"@tsc_tech/medusa-plugin-wishlist@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@tsc_tech/medusa-plugin-wishlist/-/medusa-plugin-wishlist-0.0.4.tgz#87a5bdec2ec3b90ede13047379bfb5f870b2be82"
+  integrity sha512-eIuXL5YDKmjyRFx3FfT89XK3Nza5RSA/3XTdtVUQC8mWLF23mfLzOEeHL9I8ensZ7XIbez2Ge3MOhWVK++rmqA==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.11"
@@ -10809,10 +10824,21 @@ vary@^1, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-vite@^5.2.11, vite@^5.4.14:
+vite@^5.2.11:
   version "5.4.15"
   resolved "https://registry.yarnpkg.com/vite/-/vite-5.4.15.tgz#2941547f10ebb4bf9b0fa0da863c06711eb7e5e5"
   integrity sha512-6ANcZRivqL/4WtwPGTKNaosuNJr5tWiftOC7liM7G9+rMb8+oeJeyzymDu4rTN93seySBmbjSfsS3Vzr19KNtA==
+  dependencies:
+    esbuild "^0.21.3"
+    postcss "^8.4.43"
+    rollup "^4.20.0"
+  optionalDependencies:
+    fsevents "~2.3.3"
+
+vite@^5.4.14:
+  version "5.4.16"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-5.4.16.tgz#471983257a890ef33f2700cbbbc2134f2d08abf1"
+  integrity sha512-Y5gnfp4NemVfgOTDQAunSD4346fal44L9mszGGY/e+qxsRT5y1sMlS/8tiQ8AFAp+MFgYNSINdfEchJiPm41vQ==
   dependencies:
     esbuild "^0.21.3"
     postcss "^8.4.43"
